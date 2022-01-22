@@ -14,7 +14,7 @@ YEP, we got an LFI, nothing to find on the /etc/passwd though.<br/><br/>
 Let's try getting the source code:<br/><br/>
 `/?file=index.php`<br/><br/>
 We get some kind of error<br/><br/>
-![Alt Text](img/error.png)
+![Alt Text](img/err.png)
 hmmm I wonder why, most likely due to the large size of the index.php file....let's use a php filter, the base64 one for example.<br/><br/>
 `/?file=php://filter/convert.base64-encode/resource=index.php`<br/><br/>
 We got the source code:<br/><br/>

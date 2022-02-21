@@ -27,7 +27,7 @@ $ find . -name "*flutter*"
 
 Not being a flutter developper, i googled around it a little bit.
 
-* Flutter uses two modes when decompiling, a debug mode and a release mode.
+* Flutter uses two modes when compiling, a debug mode and a release mode.
 
 * In the debug mode, flutter keeps all the source code along with some comments in a file named kernel_blob.bin.
 
